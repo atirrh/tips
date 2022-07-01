@@ -1,0 +1,6 @@
+terminal  command
+
+ctrl + K + ctrl + o to open folder in vs code
+alt + L + alt+o   to open in live server
+ctrl + alt + N to run code in vs code
+

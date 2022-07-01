@@ -1,0 +1,30 @@
+class MyThread1 extends Thread{
+    @Override
+    public void run() {
+
+        for(int n=1;n<10;n++){
+            if(n%2==0){
+                System.out.println(n);
+            }
+        }
+    }
+    class MyThread2 extends Thread{
+    @Override
+    public void run() {
+
+        for(int n=1;n<10;n++){
+            if(n%2!=0){
+                System.out.println(n);
+            }
+        }
+    }
+}
+public class thread{
+    public void main(String[] args){
+        MyThread1 t1 = new MyThread1();
+        
+        t1.start();
+        
+    }
+    }
+}

